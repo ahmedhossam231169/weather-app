@@ -244,6 +244,7 @@ body {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
   animation: slideInUp 0.8s ease-out 0.4s both;
   transition: all 0.3s ease;
+   display: none;
 }
 
 .weather-card:hover {
@@ -462,4 +463,5 @@ body {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+
 }
